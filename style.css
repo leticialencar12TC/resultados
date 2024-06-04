@@ -83,20 +83,33 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 1.6rem;
+    align-items: center;
+    border-radius: 1.2rem;
+    margin-bottom: 1.6rem;
+}
+
+.resumo > div div {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
 }
 
 .resumo_reacao {
     background: var(--reacao-bg) var(--resumo-div-bg);
+    color: var(--reacao-bg);
 }
 
 .resumo_memoria {
     background: var(--memoria-bg) var(--resumo-div-bg);
+    color: var(--memoria-bg);
 }
 
 .resumo_verbal {
     background: var(--verbal-bg) var(--resumo-div-bg);
+    color: var(--verbal-bg);
 }
 
 .resumo_visual {
     background: var(--visual-bg) var(--resumo-div-bg);
+    color: var(--visual-bg);
 }
